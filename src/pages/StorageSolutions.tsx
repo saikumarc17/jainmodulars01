@@ -1,4 +1,8 @@
 import { CornerUpRight, Box, ArrowUp, Package, Database } from 'lucide-react';
+import CornerUnit from '../assets/Corner_Units.jfif';
+import pantrySolutions from '../assets/Pantry_Solutions.jfif';
+import PulloutDrawer from '../assets/Pull-out_Drawers.jfif';
+import UnderSinkStorage from '../assets/UnderSinkStorage.jfif';
 
 export default function StorageSolutions() {
   const solutions = [
@@ -6,13 +10,13 @@ export default function StorageSolutions() {
       title: 'Corner Units',
       icon: CornerUpRight,
       description: 'Maximize corner spaces with our innovative solutions including magic corners and carousel units.',
-      image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&q=80'
+      image: CornerUnit
     },
     {
       title: 'Pull-out Drawers',
       icon: Box,
       description: 'Smooth-sliding drawers with soft-close mechanisms for easy access to all your kitchen items.',
-      image: 'https://images.unsplash.com/photo-1556909172-8c2f041fca1e?auto=format&fit=crop&q=80'
+      image: PulloutDrawer
     },
     {
       title: 'Overhead Cabinets',
@@ -24,13 +28,13 @@ export default function StorageSolutions() {
       title: 'Pantry Solutions',
       icon: Package,
       description: 'Organized pantry systems with adjustable shelves and pull-out units.',
-      image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&q=80'
+      image: pantrySolutions
     },
     {
       title: 'Under-sink Storage',
       icon: Database,
       description: 'Specialized storage solutions for under-sink areas with water-resistant materials.',
-      image: 'https://images.unsplash.com/photo-1556909172-8c2f041fca1e?auto=format&fit=crop&q=80'
+      image: UnderSinkStorage
     }
   ];
 

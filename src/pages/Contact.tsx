@@ -129,21 +129,21 @@ export default function Contact() {
                   <Phone className="h-6 w-6 text-amber-600 mr-4" />
                   <div>
                     <h3 className="font-semibold">Phone</h3>
-                    <p className="text-gray-600">+91 98765 43210</p>
+                    <p className="text-gray-600">+91 90000 21727</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-6 w-6 text-amber-600 mr-4" />
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-600">info@jainmodular.com</p>
+                    <p className="text-gray-600">jainmodularkitchenware@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-6 w-6 text-amber-600 mr-4" />
                   <div>
                     <h3 className="font-semibold">Address</h3>
-                    <p className="text-gray-600">123 Kitchen Street, Mumbai, India</p>
+                    <p className="text-gray-600">Shop No.11-53, Main Road, 100 Feet Rd, beside Gram Panchayat, Fatehnagar, Balanagar, Hyderabad, Telangana 500018, India</p>
                   </div>
                 </div>
                 <div className="flex items-center">
@@ -159,10 +159,10 @@ export default function Contact() {
 
             {/* Map */}
             <div className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-2xl font-bold mb-6">Visit Our Showroom</h2>
+              <h2 className="text-2xl font-bold mb-6">Visit Our Store</h2>
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.0080145496416!2d72.8270803!3d19.0759837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA0JzMzLjUiTiA3MsKwNDknMzcuNSJF!5e0!3m2!1sen!2sin!4v1625641411576!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.01354898631!2d78.44714627426123!3d17.45906560073808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90ed0a3c46fd%3A0x4b646e9708ef8541!2sJain%20Modular%20Kitchenware!5e0!3m2!1sen!2sin!4v1731742178634!5m2!1sen!2sin"
                   width="100%"
                   height="450"
                   style={{ border: 0 }}

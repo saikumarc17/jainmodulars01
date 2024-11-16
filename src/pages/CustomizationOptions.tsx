@@ -2,17 +2,17 @@ import { Palette, HandMetal, Package } from 'lucide-react';
 
 export default function CustomizationOptions() {
   const categories = [
-    {
-      title: 'Cabinet Colors',
-      icon: Palette,
-      options: [
-        { name: 'Classic White', code: 'bg-white' },
-        { name: 'Midnight Black', code: 'bg-gray-900' },
-        { name: 'Natural Wood', code: 'bg-amber-700' },
-        { name: 'Navy Blue', code: 'bg-blue-900' },
-        { name: 'Sage Green', code: 'bg-green-700' },
-      ]
-    },
+    // {
+    //   title: 'Cabinet Colors',
+    //   icon: Palette,
+    //   options: [
+    //     { name: 'Classic White', code: 'bg-white' },
+    //     { name: 'Midnight Black', code: 'bg-gray-900' },
+    //     { name: 'Natural Wood', code: 'bg-amber-700' },
+    //     { name: 'Navy Blue', code: 'bg-blue-900' },
+    //     { name: 'Sage Green', code: 'bg-green-700' },
+    //   ]
+    // },
     {
       title: 'Handle Types',
       icon: HandMetal,

@@ -32,15 +32,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-amber-500" />
-                <span className="text-gray-400">+91 98765 43210</span>
+                <span className="text-gray-400">+91 90000 21727</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-amber-500" />
-                <span className="text-gray-400">info@jainmodular.com</span>
+                <span className="text-gray-400">jainmodularkitchenware@gmail.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-5 w-5 text-amber-500" />
-                <span className="text-gray-400">123 Kitchen Street, Mumbai, India</span>
+                <span className="text-gray-400">Shop No.11-53, Fatehnagar, Hyderabad, Telangana 500018, India</span>
               </li>
             </ul>
           </div>
