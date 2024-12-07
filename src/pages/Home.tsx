@@ -55,7 +55,7 @@ export default function Home() {
       {/* Latest Projects Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Latest Projects</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Trending section</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-lg">
               <img 
@@ -64,7 +64,7 @@ export default function Home() {
                 className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                <span className="text-white text-lg font-semibold">Modern Elegance</span>
+                <span className="text-white text-lg font-semibold">Tandem Baskets</span>
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-lg">
@@ -87,6 +87,23 @@ export default function Home() {
                 <span className="text-white text-lg font-semibold">Luxury Design</span>
               </div>
             </div>
+            
+
+<div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <a href="#">
+        <img className="p-8 rounded-t-lg" src="" alt="product image" />
+    </a>
+    <div className="px-5 pb-5">
+        <a href="#">
+            <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+        </a>
+
+        <div className="flex items-center justify-between mt-2">
+            <a href="#" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+        </div>
+    </div>
+</div>
+
           </div>
         </div>
       </section>
